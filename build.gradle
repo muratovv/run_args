@@ -1,0 +1,18 @@
+group 'muratov'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+dependencies {
+    compile gradleApi()
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
